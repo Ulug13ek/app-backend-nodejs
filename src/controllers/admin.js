@@ -72,14 +72,14 @@ const REGISTER = (req,res,next) =>{
 		const newAdmin = {
 			admin_id: uuid.v4(),
 			adminName,
-            password: sha256(password),
+            		password: sha256(password),
 			createdAt: Date()
 		}
 
 		admins.push(newAdmin)
 		req.insert('admins', admins)
 
-        delete newAdmin.password
+        	delete newAdmin.password
 		res.status(201).json({
 			admin: newAdmin,
 			message: "The admin has successfully registered!",
@@ -96,9 +96,9 @@ const UPDATE = (req, res, next)=>{
 
 		const { adminId, adminName, password } = req.body
 		
+		if(!adminId) throw new ClientError(400, "adminId is required!")
+		
 		const admins = req.select('admins')
-
-        if(!adminId) throw new ClientError(400, "adminId is required!")
 		
 		const admin = admins.find(admin =>adminId==admin.admin_id)
 	
@@ -129,7 +129,7 @@ const UPDATE = (req, res, next)=>{
 
 module.exports = {
 	GET,
-    LOGIN,
-    REGISTER,
+    	LOGIN,
+    	REGISTER,
 	UPDATE
 }
