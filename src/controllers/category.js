@@ -64,7 +64,7 @@ const UPDATE = (req, res, next)=>{
 		
 		const categories = req.select('categories')
 
-        if(!categoryId) throw new ClientError(400, "categoryId is required!")
+        	if(!categoryId) throw new ClientError(400, "categoryId is required!")
 		
 		const category = categories.find(category =>categoryId==category.category_id)
 	
@@ -124,7 +124,7 @@ const DELETE = (req, res, next) => {
 
 module.exports = {
 	GET,
-    ADD_CATEGORY,
+    	ADD_CATEGORY,
 	UPDATE,
-    DELETE
+    	DELETE
 }
