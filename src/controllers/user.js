@@ -12,7 +12,7 @@ const GET = (req, res, next) =>{
 			delete user.password
 			user.createdAt = timeConverter(user.createdAt)
 			user.updateAt = timeConverter(user.updateAt)
-            user.settingUpdateAt = user.settingUpdateAt ? timeConverter(user.settingUpdateAt): ""
+            		user.settingUpdateAt = user.settingUpdateAt ? timeConverter(user.settingUpdateAt): ""
 			return user
 		})
 
