@@ -1,0 +1,30 @@
+[
+    {
+        "product_id": 1,
+        "product_name": "Ayollar tasbexi",
+        "product_img": "/product_images/tasbex.jpg",
+        "category_id": 1,
+        "product_bio": "Skljdalafkjaf",
+        "product_price": 100000,
+        "createdAt": "Sat Apr 02 2022 23:09:00 GMT+0500 (Uzbekistan Standard Time)"
+    },
+    {
+        "product_id": 2,
+        "product_name": "Ayollar tasbexi",
+        "product_img": "/product_images/tasbex1.jpg",
+        "category_id": 1,
+        "product_bio": "sfiljasfsakfal",
+        "product_price": 100000,
+        "createdAt": "Sat Apr 02 2022 23:09:00 GMT+0500 (Uzbekistan Standard Time)"
+    },
+    {
+        "product_id": 3,
+        "product_name": "Ayollar tasbexi",
+        "product_img": "/product_images/tasbex1.jpg",
+        "category_id": 1,
+        "product_bio": "sfiljasfsakfal",
+        "product_price": 100000,
+        "createdAt": "Sat Apr 02 2022 23:09:00 GMT+0500 (Uzbekistan Standard Time)"
+    }
+
+]

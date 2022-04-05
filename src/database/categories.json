@@ -1,0 +1,24 @@
+[
+    {
+        "category_id": 1,
+        "category_name": "Tasbexlar",
+        "createdAt": "2018-12-10T13:49:51.141Z",
+        "updateAt": "2018-12-10T13:49:51.141Z"
+    },
+    {
+        "category_id": 2,
+        "category_name": "Joy nomoz",
+        "createdAt": "2018-12-10T13:49:51.141Z"
+    },
+    {
+        "category_id": 3,
+        "category_name": "Qur'on kitoblar",
+        "createdAt": "2018-12-10T13:49:51.141Z",
+        "updateAt": "2018-12-10T13:49:51.141Z"
+    },
+    {
+        "category_id": 4,
+        "category_name": "Kitoblar",
+        "createdAt": "Mon Mar 14 2022 10:26:22 GMT+0500 (Uzbekistan Standard Time)"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "order_id": 1,
+        "cart_id": 1,
+        "user_id": 1,
+        "product_count": 2,
+        "totalSum": 200000,
+        "status": 1,
+        "createdAt": "Tue Apr 05 2022 07:17:18 GMT+0500 (Uzbekistan Standard Time)"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "admin_id": "b012c0c7-41af-4d0e-85cb-877601cb4029",
+        "adminName": "Bek",
+        "password": "301fabee6ddeada0cb93ca028e73a629c813b84cee51bb33237746911bb609b1",
+        "createdAt": "Sat Apr 02 2022 23:05:25 GMT+0500 (Uzbekistan Standard Time)"
+    },
+    {
+        "admin_id": "8ea4b992-e391-443d-a909-d35fb67b2efd",
+        "adminName": "Bek",
+        "password": "83d25723f44ffd533231908d89c7224ca59b7acfeb72ec3c30d09bc7b275cd84",
+        "createdAt": "Sat Apr 02 2022 23:09:00 GMT+0500 (Uzbekistan Standard Time)"
+    },
+    {
+        "admin_id": "1533d191-57ae-44b2-be99-9577a6831769",
+        "adminName": "Bek",
+        "password": "83d25723f44ffd533231908d89c7224ca59b7acfeb72ec3c30d09bc7b275cd84",
+        "createdAt": "Sat Apr 02 2022 23:10:27 GMT+0500 (Uzbekistan Standard Time)"
+    },
+    {
+        "admin_id": "69e0d8cf-177e-40ef-8926-e7ba1410beff",
+        "adminName": "Bek",
+        "password": "fc9f48c3abb185ec9714c9751c5158e023bf5fb25a68dfe0d9b6d43a66bf7f94",
+        "createdAt": "Mon Apr 04 2022 03:01:57 GMT+0500 (Uzbekistan Standard Time)"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "cart_id": 1,
+        "user_id": 1,
+        "product_id": 2,
+        "isPaid": true,
+        "count": 1,
+        "createdAt": "Mon Apr 04 2022 09:01:54 GMT+0500 (Uzbekistan Standard Time)"
+    },
+    {
+        "cart_id": 1,
+        "user_id": 1,
+        "product_id": 1,
+        "isPaid": true,
+        "count": 1,
+        "createdAt": "Mon Apr 04 2022 09:01:54 GMT+0500 (Uzbekistan Standard Time)"
+    },
+    {
+        "cart_id": 2,
+        "user_id": 2,
+        "product_id": 3,
+        "isPaid": false,
+        "count": 1,
+        "createdAt": "Mon Apr 04 2022 09:02:53 GMT+0500 (Uzbekistan Standard Time)"
+    }
+]
