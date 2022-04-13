@@ -157,7 +157,7 @@ const DELETE = (req, res, next) => {
 
 module.exports = {
 	GET,
-    	POST,
+    POST,
 	CHANGE,
-    	DELETE
+    DELETE
 }

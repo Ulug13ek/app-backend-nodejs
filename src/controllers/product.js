@@ -7,30 +7,30 @@ const GET = (req, res, next) =>{
 
 	try{
         const { productId } = req.params
-	const { page = req.PAGINATION.page, limit = req.PAGINATION.limit, search="" } = req.query
-        
-	let products = req.select('products')
-	products = products.map(product => {
-		
+		const { page = req.PAGINATION.page, limit = req.PAGINATION.limit, search="" } = req.query
+        console.log(req.query)
+		let products = req.select('products')
+		products = products.map(product => {
+
 			product.createdAt = timeConverter(product.createdAt)
 			product.updateAt = product.updateAt ? timeConverter(product.updateAt):""
 
 			return product
-		    })
+		})
 
-	if(productId) {
+		if(productId) {
 			const product = products.find(product => product.product_id == productId)
 			return res.json(product)
-	} else {
-            		products = products.filter(product => {
-                    		let searchFilter = search ? product.product_name.toLowerCase().includes(search.toLowerCase().trim()) : true
+		} else {
+            products = products.filter(product => {
+                    let searchFilter = search ? product.product_name.toLowerCase().includes(search.toLowerCase().trim()) : true
     
-                		return searchFilter
-            		})
-            
+                return searchFilter
+            })
+            console.log(products)
 			const paginatedProduct = products.slice(page * limit - limit, limit * page)
 			return res.json(paginatedProduct)
-	}
+		}
 
 	}catch(error){
 
@@ -43,7 +43,7 @@ const ADD_PRODUCT = (req,res,next) =>{
 
 		const products = req.select('products')
 		const { product_name, categoryId, bio, price } = req.body
-		
+		console.log(req.body)
 		if(!product_name || !categoryId || !bio || !price ) throw new ClientError(400, "product_name, categoryId, bio or price is required!")
 		
 		if(!req.file) throw new ClientError(400, "productImg is required")
@@ -124,6 +124,7 @@ const UPDATE = (req, res, next)=>{
 
 
 		const products = req.select('products')
+		console.log("pro",products)
 		const found = products.find(product => product.product_id == productId)
 
 		if(!found) throw new ClientError(404, "There is no such product!")

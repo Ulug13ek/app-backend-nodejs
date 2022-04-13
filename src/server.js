@@ -5,6 +5,7 @@ const express = require("express")
 const cors = require("cors")
 const path = require("path")
 const fs = require("fs")
+const HOST = "192.168.120.164"
 const app = express()
 
 const modelMiddleware = require('./middleware/model.js')
@@ -57,4 +58,4 @@ app.use((error, req, res, next) => {
 	return res.status(500).send(new ServerError(""))
 })
 
-app.listen(PORT, ()=>console.log("server is running http://localhost:"+PORT))
+app.listen(PORT, ()=>console.log("server is running http://"+HOST+":"+PORT))

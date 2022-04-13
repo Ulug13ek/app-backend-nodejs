@@ -1,51 +1,18 @@
 [
     {
-        "user_id": 1,
-        "username": "Ulugbek",
-        "contact": "998936699444",
+        "user_id": "a50397ef-ec53-4c85-8edf-4587f81598a0",
+        "username": "ULugbek",
         "profileImg": "/images/avatar.jpg",
-        "createdAt": "Mon Mar 14 2022 10:26:22 GMT+0500 (Uzbekistan Standard Time)",
-        "updateAt": "Mon Apr 04 2022 08:08:23 GMT+0500 (Uzbekistan Standard Time)"
+        "contact": "998931111111",
+        "createdAt": "Tue Apr 05 2022 10:44:52 GMT+0500 (Uzbekistan Standard Time)",
+        "updateAt": "Tue Apr 05 2022 11:06:56 GMT+0500 (Uzbekistan Standard Time)"
     },
     {
-        "user_id": 2,
-        "username": "Bek",
-        "contact": "998936664499",
+        "user_id": "491fa052-b328-44d9-b124-7ec519bf2d90",
+        "username": "Avazbek11gmailcom",
         "profileImg": "/images/avatar.jpg",
-        "createdAt": "Mon Mar 14 2022 10:26:22 GMT+0500 (Uzbekistan Standard Time)",
-        "updateAt": "Mon Mar 14 2022 10:26:22 GMT+0500 (Uzbekistan Standard Time)"
-    },
-    {
-        "user_id": 3,
-        "username": "Aziza",
-        "contact": "998936669944",
-        "profileImg": "/images/avatar.jpg",
-        "createdAt": "Mon Mar 14 2022 10:26:22 GMT+0500 (Uzbekistan Standard Time)",
-        "updateAt": "Mon Mar 14 2022 10:26:22 GMT+0500 (Uzbekistan Standard Time)"
-    },
-    {
-        "user_id": 4,
-        "username": "Ulugbek",
-        "profileImg": "/images/avatar.jpg",
-        "contact": "998336688899",
-        "createdAt": "Sat Apr 02 2022 01:50:35 GMT+0500 (Uzbekistan Standard Time)",
-        "updateAt": "Sat Apr 02 2022 01:57:43 GMT+0500 (Uzbekistan Standard Time)"
-    },
-    {
-        "user_id": "3f524f9a-3d79-4332-8126-50b02eca7432",
-        "username": "Sohib",
-        "profileImg": "/images/avatar.jpg",
-        "contact": "998911773412",
-        "createdAt": "Sat Apr 02 2022 02:36:46 GMT+0500 (Uzbekistan Standard Time)",
-        "updateAt": "Sat Apr 02 2022 02:40:23 GMT+0500 (Uzbekistan Standard Time)"
-    },
-    {
-        "user_id": "25afc62b-ea2d-456e-943d-db3313ae9f88",
-        "username": "Sardor",
-        "profileImg": "/images/1648861159730GNOME.jpg",
-        "contact": "998934568979",
-        "createdAt": "Sat Apr 02 2022 03:41:59 GMT+0500 (Uzbekistan Standard Time)",
-        "updateAt": "Sat Apr 02 2022 04:09:12 GMT+0500 (Uzbekistan Standard Time)",
-        "settingUpdateAt": "Sat Apr 02 2022 05:59:19 GMT+0500 (Uzbekistan Standard Time)"
+        "contact": "998992305103",
+        "createdAt": "Tue Apr 05 2022 10:47:45 GMT+0500 (Uzbekistan Standard Time)",
+        "updateAt": "Tue Apr 05 2022 11:50:48 GMT+0500 (Uzbekistan Standard Time)"
     }
 ]

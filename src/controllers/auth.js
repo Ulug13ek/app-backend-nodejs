@@ -11,7 +11,7 @@ const REGISTER = (req,res,next) =>{
 		const users = req.select('users')
 		const { username, contact } = req.body
 
-		if(!username || !contact) throw new ClientError(400, "username and contact are required!")
+		if(!username || !contact) throw new ClientError(400, "username and contact is required!")
 
 		const found = users.find(user => user.contact == contact)
 
@@ -44,7 +44,7 @@ const REGISTER = (req,res,next) =>{
 		users.push(newUser)
 		req.insert('users', users)
 
-		res.status(201).json({
+		return res.status(201).json({
 			user: newUser,
 			message: "The user has successfully registered!",
 			token: sign({ userId: newUser.userId, agent: req.headers['user-agent'] })
