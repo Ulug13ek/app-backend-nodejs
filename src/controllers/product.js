@@ -8,7 +8,6 @@ const GET = (req, res, next) =>{
 	try{
         const { productId } = req.params
 		const { page = req.PAGINATION.page, limit = req.PAGINATION.limit, search="" } = req.query
-        console.log(req.query)
 		let products = req.select('products')
 		products = products.map(product => {
 
@@ -27,7 +26,7 @@ const GET = (req, res, next) =>{
     
                 return searchFilter
             })
-            console.log(products)
+            
 			const paginatedProduct = products.slice(page * limit - limit, limit * page)
 			return res.json(paginatedProduct)
 		}
@@ -43,7 +42,7 @@ const ADD_PRODUCT = (req,res,next) =>{
 
 		const products = req.select('products')
 		const { product_name, categoryId, bio, price } = req.body
-		console.log(req.body)
+		
 		if(!product_name || !categoryId || !bio || !price ) throw new ClientError(400, "product_name, categoryId, bio or price is required!")
 		
 		if(!req.file) throw new ClientError(400, "productImg is required")
@@ -124,7 +123,7 @@ const UPDATE = (req, res, next)=>{
 
 
 		const products = req.select('products')
-		console.log("pro",products)
+		
 		const found = products.find(product => product.product_id == productId)
 
 		if(!found) throw new ClientError(404, "There is no such product!")
