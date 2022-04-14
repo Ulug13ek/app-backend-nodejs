@@ -1,7 +1,7 @@
 const fs = require("fs")
 require("dotenv").config()
 
-// fs.writeFileSync(".env", "TOKEN_KEY="+("" + Date.now()))
+fs.writeFileSync(".env", "TOKEN_KEY="+("" + Date.now()))
 
 const PORT = process.env.PORT || 1313
 
