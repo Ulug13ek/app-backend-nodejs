@@ -7,7 +7,7 @@ const imageUpload = multer()
 
 router.get("/", controller.GET)
 router.get("/:productId", controller.GET)
-router.get("/search?query", controller.GET)
+router.get("/?search", controller.GET)
 router.post("/add",  checkAdmin,imageUpload.single('file'),  controller.ADD_PRODUCT)
 router.put("/update",  checkAdmin, imageUpload.single('file'), controller.UPDATE)
 router.delete("/", checkAdmin, controller.DELETE)
